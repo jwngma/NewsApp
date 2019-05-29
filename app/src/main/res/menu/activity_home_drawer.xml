@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video_icon"
+            android:title="Video" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/fav_channel_icon"
+            android:title="Favorite" />
+
+    </group>
+
+
+    <item
+        android:title="Commute"
+        android:checkableBehavior="single"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_icon"
+                android:title="Rate" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help_icon"
+                android:title="Help" />
+
+        </menu>
+    </item>
+
+</menu>
